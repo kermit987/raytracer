@@ -1,0 +1,8 @@
+#name/x,y,z/rayon/x,y,z/x,y,z/angle/couleur
+==
+#eye -300 0 100
+==
+#object
+sphere 3000 110 111 150 10 11 12 13 14 15 90 255255255
+==
+#light 11 111 987

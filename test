@@ -1,0 +1,6 @@
+name/x,y,z/rayon/x,y,z/x,y,z/angle/couleur
+/name/rayon/x,y,z/x,y,z/angle/distance/color/
+cone 234 [] 574 905 100
+cylindre 34 [] 234 234 123
+plan 324 [] [] 6789 768 7868
+sphere 50 50 100 100

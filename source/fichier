@@ -1,0 +1,9 @@
+#name/x,y,z/rayon/x,y,z/x,y,z/angle/couleur
+==
+#eye 0 0 0 0 0
+==
+#object
+plan 0 0 500 0 1 0 0 0 1 0 0 010255000
+sphere 4000 0 0 300 0 0 0 0 0 0 0 255000000
+cylindre 4000 0 0 150 1 1 -1 0 0 0 0 100000100
+==

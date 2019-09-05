@@ -1,0 +1,48 @@
+/*
+** my.h for  in /home/loofat_s/rendu/MUL_2014_rtracer
+** 
+** Made by Steven Loo Fat
+** Login   <loofat_s@epitech.net>
+** 
+** Started on  Fri Apr 24 14:33:01 2015 Steven Loo Fat
+** Last update Sun Jun 21 16:20:33 2015 Steven Loo Fat
+*/
+
+#ifndef RTV1_H_
+# define RTV1_H_
+# define WIN_X 600
+# define WIN_Y 600
+# define BACKGROUND 0x000000
+# define SPHERE 0xFF0000
+# define PLAN 0x3300FF
+# define SIZE 10
+# define LIMIT 9
+# define MIN(a, b) ((a < b) && (a > 0) ? (a) : (b))
+
+typedef struct	s_img
+{
+  void		*image_ptr;
+  char		*data;
+  int		sizeline;
+  int		bpp;
+  int		endian;
+}		t_img;
+
+typedef struct	s_init
+{
+  void		*mlx_ptr;
+  void		*win_ptr;
+  t_img		image;
+}		t_init;
+
+int		initialized();
+int		calc(int x, int y);
+char		*str_error(char *function, char *where);
+int		**fidding_matrice(int **tab, int horizontal, int vertical);
+int		**fidding_matrice(int **tab, int horizontal, int vertical);
+int		**create_tab_matrice(int first_dimension, int second_dimension);
+char		**malloc_first_dimension(char **final, int nb);
+char		*malloc_second_dimension(char *final, int size);
+char		**fidding_second_dimension(char **final, char *str, int nb_word, char delimiter);
+
+#endif	/* !RTV1_H_ */
